@@ -1,7 +1,12 @@
-/*Header Styling*/
+/******************Header Styling*******************/
+body{
+
+	font-family: 'Raleway', sans-serif;
+}
+
 header{
 
-  	background:#02733e;
+  	background:gray;
   	margin:auto;
   	height:3em;
   	width:100%;
@@ -9,11 +14,13 @@ header{
   
 }
 
-/*Image Gallery*/
+/*****************Image Gallery******************/
+
 img {
 
 	width:100%;
-	height:22em;
+	height:auto;
+
 
 }
 
@@ -25,17 +32,19 @@ img[src*="logo"]{
 	margin:0;
 }
 
-/*Image Paragraphs & Headings*/
+/*****************Image Paragraphs and Headings******************/
 
 p, 
 h1{
 	text-align: left;
 	padding:0 20px;
 	font-size:16px;
+	font-weight: 300;
 
 
 }
 
 .gallery h1 {
 	font-size:25px;
+	font-weight: normal;
 }
