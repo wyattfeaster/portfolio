@@ -14,6 +14,13 @@ header{
   
 }
 
+img[src*="logo"]{
+
+	float:left;
+	height:50px;
+	width: 50px;
+	margin:0;
+}
 /*****************  Image Gallery  ******************/
 
 img {
@@ -24,13 +31,7 @@ img {
 
 }
 
-img[src*="logo"]{
 
-	float:left;
-	height:50px;
-	width: 50px;
-	margin:0;
-}
 
 /*****************  Image Paragraphs and Headings  ******************/
 
@@ -49,17 +50,57 @@ h1{
 	font-weight: normal;
 }
 
-/*****************  MEDIA QUERIES  ******************/
+/*****************  MEDIA QUERIES (TABLET) ******************/
 
 @media (min-width: 768px) {
-
+/*Body Styles*/
 body{
 
 	background: green;
 
 }
+/*Gallery*/
+.gallery{
+
+	max-width:100%;
+	margin:auto;
+	height:100%
 
 }
+
+article{
+
+	width:45%;
+	float:left;
+}
+/*Img gallery Paragraphs*/
+p{
+
+	display: inline;
+}
+
+p,
+h1{
+	padding-left:0;
+	padding-right:10px;
+	font-size: 12px;
+
+}
+
+}
+
+/*****************  MEDIA QUERIES (DESKTOP) ******************/
+
+@media (min-width: 1024px) {
+
+body{
+
+	background: red;
+
+}
+
+}
+
 
 
 
