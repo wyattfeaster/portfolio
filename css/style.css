@@ -1,4 +1,4 @@
-/******************Header Styling*******************/
+/******************  Header Styling  *******************/
 body{
 
 	font-family: 'Raleway', sans-serif;
@@ -14,7 +14,7 @@ header{
   
 }
 
-/*****************Image Gallery******************/
+/*****************  Image Gallery  ******************/
 
 img {
 
@@ -32,7 +32,7 @@ img[src*="logo"]{
 	margin:0;
 }
 
-/*****************Image Paragraphs and Headings******************/
+/*****************  Image Paragraphs and Headings  ******************/
 
 p, 
 h1{
@@ -48,3 +48,37 @@ h1{
 	font-size:25px;
 	font-weight: normal;
 }
+
+/*****************  MEDIA QUERIES  ******************/
+
+@media (min-width: 768px) {
+
+body{
+
+	background: green;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
