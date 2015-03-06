@@ -83,6 +83,7 @@ body{
 
 	margin-top:50px;
 
+
 }
 
 article{
@@ -133,9 +134,53 @@ footer{
 
 body{
 
-	background: red;
+	background: white;
 
 }
+
+/*Gallery*/
+.main-content{
+
+	
+	width:90%;
+	height:100%;
+	margin:auto;
+
+}
+
+.gallery{
+
+	width:100%;
+	height:500px;
+	
+}
+
+.gallery img{
+
+	margin-top:50px;
+	
+
+}
+
+article{
+
+	width:45%;
+	float:left;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	margin-top:0;
+	
+}
+.bottom{
+
+	margin-bottom:25px;
+}
+
+
+
+
+
+
 
 }
 
