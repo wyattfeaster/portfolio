@@ -142,7 +142,7 @@ body{
 .main-content{
 
 	
-	width:90%;
+	max-width:90%;
 	height:100%;
 	margin:auto;
 
@@ -164,7 +164,7 @@ body{
 
 article{
 
-	width:45%;
+	width:20%;
 	float:left;
 	margin-left:2.5%;
 	margin-right:2.5%;
