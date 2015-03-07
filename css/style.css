@@ -59,7 +59,7 @@ h1{
 /*Body Styles*/
 body{
 
-	background: teal;
+
 
 }
 /*Gallery*/
@@ -164,22 +164,17 @@ body{
 
 article{
 
-	width:20%;
+	width:33.333%;
 	float:left;
-	margin-left:2.5%;
-	margin-right:2.5%;
 	margin-top:0;
+	margin:0%;
+
 	
 }
 .bottom{
 
 	margin-bottom:25px;
 }
-
-
-
-
-
 
 
 }
