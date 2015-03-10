@@ -23,8 +23,6 @@ img[src*="feaster"]{
 	width: 50px;
 	margin:auto;
 	float:left;
-	z-index:2;
-	
 }
 /*****************  Image Gallery  ******************/
 
@@ -68,6 +66,15 @@ body{
 
 
 }
+
+/* Header Styles */
+
+header{
+
+	height:100px;
+
+}
+
 /*Gallery*/
 .main-content{
 
@@ -87,17 +94,15 @@ body{
 
 .gallery img{
 
-	margin-top:25px;
+	margin-top:0px;
 
 
 }
 
 article{
 
-	width:45%;
+	width:50%;
 	float:left;
-	margin-left:2.5%;
-	margin-right:2.5%;
 	margin-top:0;
 	
 }
