@@ -44,13 +44,17 @@ h1{
 	padding:0 20px;
 	font-size:16px;
 	font-weight: 300;
+	z-index:2;
+	margin-top:-50;
+	
 
 
 }
 
 .gallery h1 {
-	font-size:25px;
+	font-size:16px;
 	font-weight: normal;
+
 }
 
 /*****************  MEDIA QUERIES (TABLET) ******************/
@@ -142,7 +146,7 @@ body{
 .main-content{
 
 	
-	max-width:90%;
+	max-width:75%;
 	height:100%;
 	margin:auto;
 
@@ -164,10 +168,10 @@ body{
 
 article{
 
-	width:33.333%;
+	width:45%;
 	float:left;
 	margin-top:0;
-	margin:0%;
+	margin:2.5%;
 
 	
 }
