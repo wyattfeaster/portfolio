@@ -6,23 +6,27 @@ body{
 
 header{
 
-  	background:gray;
+  	background:#4D4F51;
   	margin:auto;
   	height:50px;
   	width:100%;
   	color:white;
+  	position:fixed;
+  	
   
   	
 
   
 }
 
-img[src*="feaster"]{
 
-	height:50px;
-	width: 50px;
+div{
+	height: 75px;
+	width: 75px;
 	margin:auto;
-	float:left;
+	background: #ED891B;
+	margin-top:0;
+	border-radius: 0 0 100% 100%;
 }
 /*****************  Image Gallery  ******************/
 
@@ -31,7 +35,13 @@ img {
 	width:100%;
 	height:auto;
 
+	
 
+}
+
+.gallery{
+
+	padding-top:50px;
 }
 
 
@@ -69,12 +79,10 @@ body{
 
 /* Header Styles */
 
-header{
-
-	height:100px;
-
+div{
+	height: 100px;
+	width: 100px;
 }
-
 /*Gallery*/
 .main-content{
 
@@ -149,6 +157,11 @@ body{
 
 }
 
+header{
+
+	margin-bottom:50px;
+}
+
 /*Gallery*/
 .main-content{
 
@@ -163,13 +176,20 @@ body{
 
 	width:100%;
 	height:500px;
+	padding-top:100px;
 	
 }
 
 .gallery img{
 
-	margin-top:25px;
-	
+	margin-bottom: 10%;
+
+
+}
+
+.gallery img:hover{
+
+	opacity: .5;
 
 }
 
@@ -180,7 +200,6 @@ article{
 	margin-top:0;
 	margin-left:2.5%;
 	margin-right:2.5%;
-
 	
 }
 .bottom{
