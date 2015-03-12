@@ -184,11 +184,19 @@ div{
 	color:#ED891B;
 
 
+
 }
 
 .nav li:hover{
 
 	color:white;
+}
+
+a:visited{
+
+	
+	color:white;
+	text-decoration: none;
 }
 
 /*Gallery*/
