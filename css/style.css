@@ -13,18 +13,37 @@ header{
   	color:white;
   	position:fixed;
   	z-index:2;
-  	
-  
-  	
 
   
+}
+
+.nav {
+
+	margin-right:14.4%;
+	margin-top:-75px;
+}
+.nav li{
+
+	float:right;
+	display:inline-block;
+	list-style: none;
+	padding: 0 0px 0px 20px;
+	text-decoration: none;
+
+}
+
+
+a:visited{
+
+	
+	color:white;
+	text-decoration: none;
 }
 
 
 div{
 	height: 75px;
 	width: 75px;
-	margin:auto;
 	background: #ED891B;
 	margin-top:0;
 	border-radius: 0 0 100% 100%;
@@ -63,9 +82,17 @@ h1{
 }
 
 .gallery h1 {
-	font-size:16px;
-	font-weight: normal;
-
+	font-size:60px;
+	font-weight: bolder;
+	line-height: 140%;
+	text-align: left;
+	color:white;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	position:absolute;
+	top:150;
+	color:#ED891B;
+	
 }
 
 /*****************  MEDIA QUERIES (TABLET) ******************/
@@ -84,6 +111,7 @@ div{
 	height: 100px;
 	width: 100px;
 }
+
 /*Gallery*/
 .main-content{
 
