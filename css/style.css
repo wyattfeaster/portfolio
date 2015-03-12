@@ -19,7 +19,7 @@ header{
 
 .nav {
 
-	margin-right:14.4%;
+	
 	margin-top:-75px;
 }
 .nav li{
@@ -92,7 +92,7 @@ h1{
 	position:absolute;
 	top:150;
 	color:#ED891B;
-	
+
 }
 
 /*****************  MEDIA QUERIES (TABLET) ******************/
