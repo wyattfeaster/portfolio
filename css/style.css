@@ -59,16 +59,16 @@ h1{
 	padding:0 20px;
 	font-weight: 300;
 	position: absolute;
-	color:#ED891B;
+	color:white;
 	z-index: 1;
-	top: 40;
-	line-height: 80%;
-
+	top: 60;
+	line-height: 120%;
+	text-transform: uppercase;
 
 }
 
 .gallery h1 {
-	font-size:75px;
+	font-size:50px;
 	font-weight: normal;
 
 }
@@ -79,6 +79,7 @@ h1{
 
 	line-height: 120%;
 	z-index:1;
+	font-size:75px;
 }
 
 }
