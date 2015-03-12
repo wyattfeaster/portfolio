@@ -65,11 +65,27 @@ h1{
 	line-height: 120%;
 	text-transform: uppercase;
 
+
 }
 
 .gallery h1 {
 	font-size:50px;
 	font-weight: bolder;
+
+}
+
+
+/*footer*/
+
+
+footer{
+
+	clear:both;
+	height:75px;
+	text-align:center;
+	margin:auto;
+	width:100%;
+	background: gray;
 
 }
 /**************************IPHONE 6 PLUS********************************/
@@ -158,9 +174,19 @@ footer{
 	text-align:center;
 	margin:auto;
 	width:100%;
-	background: gray;
+	background: #4D4F51;
 
 
+}
+
+footer img{
+
+	height:40px;
+	width: 40px;
+	opacity: .25;
+	margin:8px;
+	padding-top: 15px;
+	
 }
 
 /*****************  MEDIA QUERIES (DESKTOP) ******************/
