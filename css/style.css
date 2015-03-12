@@ -15,19 +15,23 @@ header{
   	z-index:2;
   	
   
-  	
-
-  
+ /*logo*/
 }
 
 
 div{
 	height: 75px;
 	width: 75px;
-	margin:auto;
 	background: #ED891B;
 	margin-top:0;
 	border-radius: 0 0 100% 100%;
+}
+
+/*nav*/
+
+.nav{
+
+	display: none;
 }
 /*****************  Image Gallery  ******************/
 
@@ -53,21 +57,31 @@ p,
 h1{
 	text-align: left;
 	padding:0 20px;
-	font-size:16px;
 	font-weight: 300;
-	z-index:2;
-	margin-top:-50;
-
+	position: absolute;
+	color:#ED891B;
+	z-index: 1;
+	top: 40;
+	line-height: 80%;
 
 
 }
 
 .gallery h1 {
-	font-size:16px;
+	font-size:75px;
 	font-weight: normal;
 
 }
+/**************************IPHONE 6 PLUS********************************/
+@media (min-width: 414px){
 
+h1{
+
+	line-height: 120%;
+	z-index:1;
+}
+
+}
 /*****************  MEDIA QUERIES (TABLET) ******************/
 
 @media (min-width: 768px) {
