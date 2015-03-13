@@ -34,12 +34,43 @@ div{
 	display: none;
 }
 
-.banner img{
+.banner{
 
 		width:100%;
 		height:auto;
 		opacity: .75;
 	}
+
+	/*banner*/
+
+	.me {
+
+	position: relative;
+}
+.me h1{
+
+	line-height: 120%;
+	font-size:20px;
+	text-align: center;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-weight: bolder;
+	display: inline-block;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:-150;
+}
+
+span{
+	border: 4px solid;
+	padding: 5px;
+}
+.hidden1 {
+
+	display: none;
+}
 /*****************  Image Gallery  ******************/
 
 img {
@@ -123,7 +154,7 @@ body{
 	left:0;
 	right:0;
 	margin:0 auto;
-	top:-125;
+	top:-175;
 }
 
 span{
@@ -140,6 +171,14 @@ span{
 	margin:auto;
 
 }
+
+.banner img{
+
+		width:100%;
+		height:auto;
+		margin-top:-400px;
+		opacity: .75;
+	}
 
 .gallery{
 
@@ -283,7 +322,7 @@ span{
 
 		width:100%;
 		height:auto;
-		margin-top:150px;
+		margin-top:-650px;
 		opacity: .75;
 	}
 /*Gallery*/
@@ -307,6 +346,7 @@ span{
 
 	width:100%;
 	height:500px;
+	margin-top: 50px;
 	
 	
 }
@@ -340,14 +380,6 @@ article{
 
 
 }
-
-
-
-
-
-
-
-
 
 
 
