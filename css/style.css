@@ -33,6 +33,13 @@ div{
 
 	display: none;
 }
+
+.banner img{
+
+		width:100%;
+		height:auto;
+		opacity: .75;
+	}
 /*****************  Image Gallery  ******************/
 
 img {
@@ -42,11 +49,6 @@ img {
 
 	
 
-}
-
-.gallery{
-
-	padding-top:50px;
 }
 
 
@@ -68,13 +70,6 @@ h1{
 
 }
 
-.gallery h1 {
-	font-size:50px;
-	font-weight: bolder;
-
-}
-
-
 /*footer*/
 
 
@@ -89,17 +84,14 @@ footer{
 
 }
 /**************************IPHONE 6 PLUS********************************/
+/**********************************************************************/
 @media (min-width: 414px){
 
-h1{
 
-	line-height: 120%;
-	z-index:1;
-	font-size:75px;
-}
 
 }
 /*****************  MEDIA QUERIES (TABLET) ******************/
+/***********************************************************/
 
 @media (min-width: 768px) {
 /*Body Styles*/
@@ -111,10 +103,34 @@ body{
 
 /* Header Styles */
 
-div{
-	height: 100px;
-	width: 100px;
+
+/*banner styling*/
+
+.me {
+
+	position: relative;
 }
+.me h1{
+
+	line-height: 120%;
+	font-size:30px;
+	text-align: center;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-weight: bolder;
+	display: inline-block;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:-125;
+}
+
+span{
+	border: 4px solid;
+	padding: 5px;
+}
+
 /*Gallery*/
 .main-content{
 
@@ -132,6 +148,12 @@ div{
 	
 }
 
+.me{
+
+	width:100%;
+
+}
+
 .gallery img{
 
 	margin-top:0px;
@@ -146,10 +168,7 @@ article{
 	margin-top:0;
 	
 }
-.bottom{
 
-	margin-bottom:25px;
-}
 
 /*Img gallery Paragraphs*/
 p{
@@ -190,6 +209,7 @@ footer img{
 }
 
 /*****************  MEDIA QUERIES (DESKTOP) ******************/
+/************************************************************/
 
 @media (min-width: 1024px) {
 
@@ -198,6 +218,7 @@ body{
 	background: white;
 
 }
+
 /* Header Styling*/
 header{
 
@@ -205,8 +226,8 @@ header{
 }
 
 div{
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
 	float:left;
 	margin-left:14.4%;
 }
@@ -232,6 +253,39 @@ div{
 	color:white;
 }
 
+
+/*banner styling*/
+.me {
+
+	position: relative;
+}
+.me h1{
+
+	line-height: 120%;
+	font-size:30px;
+	text-align: center;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-weight: bolder;
+	display: inline-block;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:-200;
+}
+
+span{
+	border: 4px solid;
+	padding: 5px;
+}
+.banner img{
+
+		width:100%;
+		height:auto;
+		margin-top:150px;
+		opacity: .75;
+	}
 /*Gallery*/
 .main-content{
 
@@ -241,12 +295,19 @@ div{
 	margin:auto;
 
 }
+.me{
+
+	padding:auto;
+	margin:auto;
+	text-align: center;
+	position: relative;
+}
 
 .gallery{
 
 	width:100%;
 	height:500px;
-	padding-top:150px;
+	
 	
 }
 
